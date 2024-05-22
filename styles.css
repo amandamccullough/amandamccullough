@@ -91,6 +91,12 @@ a:active {
 /**/
 }
 
+@media screen and (min-width: 767px) {
+.sidenav{
+  display: none;
+}
+}
+
 @media screen and (max-width: 767px) {
 body{
   font-size: 12px;
@@ -108,42 +114,42 @@ body{
   margin-bottom: 6px;
 }
 
-.nav_small {
+.sidenav {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #eeeeeeff;
+  background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
   text-align:center;
 }
 
-.nav_small a {
+.sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #000000;
+  color: #818181;
   display: block;
   transition: 0.3s;
 
 }
 
-.nav_small a:hover{
-  color: #000000;
+.sidenav a:hover{
+  color: #f1f1f1;
 }
 
-.nav_small .closebtn {
+.sidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
 }
-
+  
 .content {
   margin-left: 10px;
   margin-right: 10px;
