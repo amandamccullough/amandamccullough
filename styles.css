@@ -16,11 +16,13 @@ a:visited {
 a:hover {
   text-decoration: none;
   color: #0097a7;
+  background-color: #d9d9d9ff;
 }
 
 a:active {
   text-decoration: none;
   color: #0097a7;
+  background-color: #999999ff;
 }
 
 .center {
