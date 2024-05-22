@@ -95,12 +95,6 @@ a:active {
 /**/
 }
 
-@media screen and (min-width: 767px) {
-.sidenav{
-  display: none;
-}
-}
-
 @media screen and (max-width: 767px) {
 body{
   font-size: 12px;
@@ -123,6 +117,7 @@ body{
 }
 
 .sidenav {
+  display: inline;
   height: 100%;
   width: 0;
   position: fixed;
