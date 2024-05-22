@@ -4,7 +4,7 @@ body{
 
 .nav {
   height: 100%; 
-  width: 200px; 
+  width: 25%; 
   position: fixed;
   z-index: 1; 
   top: 0; 
@@ -14,6 +14,19 @@ body{
   padding-top: 60px; 
 }
 
+.nav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+}
+
+.nav a:hover {
+  color: #000000;
+}
+
+
 .content {
-  margin-left: 200px;
+  margin-left: 240px;
 }
