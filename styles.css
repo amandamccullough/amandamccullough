@@ -83,7 +83,11 @@ a:active {
   margin-bottom:50px;
 }
 
-.nav_small {
+.small {
+  display: none;
+}
+
+.sidenav{
   display: none;
 }
 
