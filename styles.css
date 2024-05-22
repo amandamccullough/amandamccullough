@@ -57,6 +57,7 @@ a:active {
 .nav a:hover {
   text-decoration: none;
   color: #000000;
+  background-color: #d9d9d9ff;
 }
 
 .nav a:visited {
@@ -67,6 +68,7 @@ a:active {
 .nav a:active {
   text-decoration: none;
   color: #000000;
+  background-color: #999999ff;
 }
 
 .content {
@@ -107,7 +109,7 @@ body{
 }
 
 .small > img {
-  height: 55px;
+  height: 45px;
   margin-left: 8px;
   margin-top: 10px;
 }
