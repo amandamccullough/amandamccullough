@@ -8,31 +8,43 @@
 </head>
 <body>
 
-<div class="small">
-  <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
-  <a href="cv.html">About Me</a>
-  <a href="projects.html">Projects</a>
-</div>
-  <img src="AM_PAGE_LOGO_DG.png" alt="Amanda McCullough">
-  <span id="menu" style="cursor:pointer" onclick="openNav()">&#9776;</span>
-  <script>
-function openNav() {
-  document.getElementById("mySidenav").style.width = "100%";
-}
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-</div>
-<div class="nav">
-  <img src="AM_PAGE_LOGO.png" alt="Amanda McCullough" class="center">
-  <a href="index.html">Home</a>
-  <a href="cv.html">About Me</a>
-  <a href="projects.html">Projects</a>
-</div>
+    <div class="small">
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="cv.html">About Me</a>
+        <div class="dropdown">
+          <button class="dropbtn">Projects</button>
+          <div class="dropdown-content">
+              <a href=custseg.html>Customer Segmentation for UK-Based Online Store</a>
+              <a href=grocery.html>Grocery Nutrition, Cost, and Usage Optimization</a>
+          </div>
+        </div>
+      </div>
+        <img src="AM_PAGE_LOGO_DG.png" alt="Amanda McCullough">
+        <span id="menu" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+      </div>
+      <div class="nav">
+        <img src="AM_PAGE_LOGO.png" alt="Amanda McCullough" class="center">
+        <a href="index.html">Home</a>
+        <a href="cv.html">About Me</a>
+        <div class="dropdown">
+          <button class="dropbtn">Projects</button>
+          <div class="dropdown-content">
+              <a href=custseg.html>Customer Segmentation for UK-Based Online Store</a>
+              <a href=grocery.html>Grocery Nutrition, Cost, and Usage Optimization</a>
+          </div>
+        </div>
+      </div>
   <div class="content">
   <div id="bio">
   <h1>Bio</h1>
