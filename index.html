@@ -4,6 +4,18 @@
   <title>Amanda McCullough</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
+  <style>
+.triangle-right {
+	position: absolute;
+    left: 25%;
+    top: 20%+50px;
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 20px solid #555;
+	border-bottom: 25px solid transparent;
+}
+</style>
 </head>
 <body>
 
@@ -15,7 +27,7 @@
   <a href="projects.html">Projects</a>
 </div>
   <img src="AM_PAGE_LOGO__WBG.png" alt="Amanda McCullough">
-  <span style="position: absolute; top: 7px; right: 10px; font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <span id="menu" style="cursor:pointer" onclick="openNav()">&#9776;</span>
   <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
