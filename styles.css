@@ -43,6 +43,8 @@ a:active {
   background-color: #eeeeeeff;
   overflow-x: hidden;
   padding-top: 40px; 
+  line-width: 25%;
+  text-align: center;
 }
 
 .nav a {
