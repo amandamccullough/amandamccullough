@@ -95,7 +95,7 @@ a:active {
   display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 5.5in) {
 body{
   font-size: 12px;
 }
@@ -195,7 +195,7 @@ body{
   margin-bottom:6px;
 }
 }
-@media screen and (max-width: 427px) {
+@media screen and (max-width: 3in) {
 
 
 .small > img {
