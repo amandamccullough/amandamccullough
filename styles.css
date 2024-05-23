@@ -109,9 +109,16 @@ body{
 }
 
 .small > img {
-  height: 45px;
+  height: 65px;
   margin-left: 8px;
   margin-top: 10px;
+}
+  
+#menu{
+  position: absolute; 
+  top: 7px; 
+  right: 10px; 
+  font-size:70px;
 }
   
 .nav {
@@ -194,5 +201,10 @@ body{
 }
 
 @media screen and (max-width: 479px) {
-/**/
+#menu{
+  position: absolute; 
+  top: 7px; 
+  right: 10px; 
+  font-size:50px;
+}
 }
